@@ -1,6 +1,6 @@
 {
   "name": "freifunk-rheinbach",
-  "url": "http://freifunk-rheinbach.de",
+  "url": "https://freifunk-rheinbach.de",
   "location": {
     "city": "Rheinbach",
     "country": "DE",
@@ -8,48 +8,43 @@
     "lon": 6.942542
   },
   "contact": {
-    "email": "router@freifunk-rheinbach.de",
+    "email": "thomas@freifunk-rheinbach.de",
     "phone": "+49 2226 903737",
-    "facebook": "https://www.facebook.com/freifunkrheinbach",
-    "googleplus": "https://plus.google.com/u/0/communities/109908441895179207109"
+    "facebook": "https://www.facebook.com/freifunkrheinbach"
   },
   "metacommunity": "Rhein-Sieg",
   "state": {
     "nodes": 100,
     "focus": [
       "Public Free Wifi",
-      "Social Community Building",
       "Free internet access"
     ],
-    "lastchange": "2019-02-11T21:01:38.578Z"
+    "lastchange": "2019-02-11T21:24:04.731Z"
   },
   "nodeMaps": [
     {
-      "url": "https://map.freifunk-rheinbahc.de",
+      "url": "https://map.freifunk-rheinbach.de",
       "interval": "1",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     }
   ],
-  "socialprojects": {
-    "number": 2
-  },
   "techDetails": {
     "firmware": {
-      "name": "Gluon v2016.1e",
+      "name": "Gluon v2018.1.3",
       "url": "http://images.freifunk-rheinbach.de",
-      "docs": "http://wiki.freifunk-rheinbach.de",
-      "vpnaccess": "fwimage"
+      "docs": "https://wiki.freifunk-rheinbach.de",
+      "vpnaccess": "automatic"
     },
     "networks": {
       "ipv6": [
         {
-          "network": "fda0:747e:ab29:2241::/64"
+          "network": "2a03:2260:3017:1400::/64"
         }
       ],
       "ipv4": [
         {
-          "network": "10.111.0.0/16"
+          "network": "10.152.112.0/21"
         }
       ]
     },
@@ -57,12 +52,12 @@
       "batman-adv"
     ],
     "updatemode": [
-      "none",
-      "manual"
+      "manual",
+      "autoupdate"
     ],
     "legals": [
       "vpnnational",
-      "institutions"
+      "vpninternational"
     ]
   },
   "api": "0.4.14"
